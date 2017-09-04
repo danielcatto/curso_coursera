@@ -22,3 +22,5 @@ def imprime_raizes(a, b, c):
             y = (-b - math.sqrt(d)) / (2 * a)
             print("as raízes da equação são", x, "e", y)
 
+main()
+
