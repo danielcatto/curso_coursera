@@ -1,0 +1,19 @@
+import math
+a = 1
+b = 4
+c = -21
+
+resultado_xmais =  (-b + (math.sqrt((4**2)+(4*1*21)))) / (2 * a)
+resultado_xmenos = (-b - (math.sqrt((4**2)+(4*1*21)))) / (2 * a)
+
+if(resultado_xmais <= 0) or (resultado_xmenos <= 0):
+    print("negativo reprovado")
+    print ("valor real para x = ",resultado_xmais, "e x = ",resultado_xmenos)
+else:
+    print ("valor real para x = ",resultado_xmais, "e x = ",resultado_xmenos)
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+git config --global user.name "danielcatto"
+git config --global use.email "danielcatto@hotmail.com"
+git config --global core.editor vim
+git config --global merge.tool vimdiff
+git config --list
+
+git init ->  inicializa o git
+git add <nome do arquivo>  -> adiciona arquivos para ser monitorado
+
+git commit -m "descrição do que foi realizado ex: meu primeiro commit" -> envia os arquivos para o git directory
+
+git push origin master ->  para subir para github
+
+
+git diff - > retorna as linhas do arquivo que foi modificada
+#para saber o que foi alterada e está na staged area (antes do commit somente)
+git diff --staged
+#git log mostra o log de todos os commits (desde o inicio até agora)
+git log
+ ou
+git log --pretty-oneline
+
+#para reverter as mudanças de um commit que não deveria ser commitado
+git commit --amend -m  "descrição do que foi realizado ex: ultimo commit"
+
+#retirar um arquivo da staged area
+git reset HEAD nomearquivo.txt
+
+#voltar um arquivo para estado inicial quando não sebe onde ele foi modificado (antes de fazer o add .)
+git checkout -- nomearquivo.txt
+
+#####
+usando TAGs
+
+git tag -> para listar as tags
+git tag -a v0.0  -m "versão 0.0"
+git tag -a v0.0-0 3da5bedf1d56be9d2c9 0cae955e4d132dabc4c23 -m "versão 0.0-0"  -> cria uma versão de uma chave dos commit anteriores
+git show v0.0-0 -> mostra detalhes da versão especifica
+git checkout v0.0-0  ->  muda de versão
+git tag -d v0.0-0 -> deleta a tag 
+
+
+## criando ramificações Branch
+git branch <nome> -> cria um branch
+git checkout <nome>  - > joga os arquivos do master para o branch de teste
+
+git branch master -> volta para o master
+git merge  teste -> como vc está no master agora o comando mescla as auterações do teste para o master
+git branch -d para apagar o branch de teste
+
+#para criar um servidor do git na rede local 
+#cria uma pasta compartilhada no servidor remoto e inicialize o git com o comando abaixo
+git init --bare
+
+#para clonar o projeto no servidor digite no seu computador local
+git clone file:////servidor/cliente1 prjrede1 
+
+##acessar o git hub 
+#primeiramente faça o cadastro no site do github, logo após no seu terminal 
+#é necessário fazer uma conexão com o github 
+#por meio de uma conexão ssh e um par de chaves como o comando abaixo:
+
+ssh-keygen
+#seguindo,  averá uma mensagem para trocar nome do arquivo e criar uma senha, apenas pressione enter até o fim
+#será gerado um arquivo com a chave, geralmente na pasta do home do usuario ~/daniel/.ssh. Copie o codigo gerado do arquivo id_rsa.pub e vá no site
+#do github, em seguida na opção SETTING / SSH AND GPG KEYS crie uma chave SSH
+#apos isso crie um repositório novo e copie o endereço do ssh do repositório, após isso você ja poderá clonas esse repositório
+git clone git@github.com:danielcatto/curso_coursera.git novonome
+
+
+
+
+

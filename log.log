@@ -1,0 +1,1773 @@
+commit d7c70a7777028b9ef559417dacbb8d74961caf74
+Author: daniel catto <danielcatto@hotmail.com>
+Date:   Sat Sep 2 14:05:40 2017 -0300
+
+    linha adicionada no README.md
+
+diff --git a/README.md b/README.md
+index 6c041ef..c01efa9 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,2 @@
+ Exercicio do curso de introdução a ciência a computação
++mais uma linha adicionada para testes
+
+commit 509de55c22ecee126b7e1b4593640ba452614b09
+Author: daniel catto <danielcatto@hotmail.com>
+Date:   Sat Sep 2 11:39:18 2017 -0300
+
+    adicionado o README.md
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..6c041ef
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++Exercicio do curso de introdução a ciência a computação
+
+commit 3da5bedf1d56be9d2c90cae955e4d132dabc4c23
+Author: daniel catto <danielcatto@hotmail.com>
+Date:   Sat Sep 2 11:29:42 2017 -0300
+
+    meu primeiro commit
+
+diff --git a/.idea/coursera_py3.0.iml b/.idea/coursera_py3.0.iml
+new file mode 100644
+index 0000000..6711606
+--- /dev/null
++++ b/.idea/coursera_py3.0.iml
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="TestRunnerService">
++    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+index 0000000..1e5c213
+--- /dev/null
++++ b/.idea/misc.xml
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.2+ (/usr/bin/python3.5)" project-jdk-type="Python SDK" />
++  <component name="SvnConfiguration">
++    <configuration>$USER_HOME$/.subversion</configuration>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000..53061f9
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/coursera_py3.0.iml" filepath="$PROJECT_DIR$/.idea/coursera_py3.0.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+index 0000000..8c3c354
+--- /dev/null
++++ b/.idea/workspace.xml
+@@ -0,0 +1,111 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="517ede09-1f92-4d83-802a-7b3f3d88b1b2" name="Default" comment="" />
++    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
++    <option name="TRACKING_ENABLED" value="true" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
++  <component name="ProjectFrameBounds">
++    <option name="x" value="-1" />
++    <option name="y" value="-1" />
++    <option name="width" value="1282" />
++    <option name="height" value="781" />
++  </component>
++  <component name="ProjectView">
++    <navigator currentView="ProjectPane" proportions="" version="1">
++      <flattenPackages />
++      <showMembers />
++      <showModules />
++      <showLibraryContents />
++      <hideEmptyPackages />
++      <abbreviatePackageNames />
++      <autoscrollToSource />
++      <autoscrollFromSource />
++      <sortByType />
++      <manualOrder />
++      <foldersAlwaysOnTop value="true" />
++    </navigator>
++    <panes>
++      <pane id="Scope" />
++      <pane id="Scratches" />
++      <pane id="ProjectPane">
++        <subPane>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="coursera_py3.0" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="coursera_py3.0" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++          </PATH>
++        </subPane>
++      </pane>
++    </panes>
++  </component>
++  <component name="PropertiesComponent">
++    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++  </component>
++  <component name="RunDashboard">
++    <option name="ruleStates">
++      <list>
++        <RuleState>
++          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
++        </RuleState>
++        <RuleState>
++          <option name="name" value="StatusDashboardGroupingRule" />
++        </RuleState>
++      </list>
++    </option>
++  </component>
++  <component name="ShelveChangesManager" show_recycled="false">
++    <option name="remove_strategy" value="false" />
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="517ede09-1f92-4d83-802a-7b3f3d88b1b2" name="Default" comment="" />
++      <created>1503424880803</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1503424880803</updated>
++    </task>
++    <servers />
++  </component>
++  <component name="ToolWindowManager">
++    <frame x="-1" y="-1" width="1282" height="781" extended-state="6" />
++    <layout>
++      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
++      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
++      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
++      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
++      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
++      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
++      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
++      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
++      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++    </layout>
++  </component>
++  <component name="VcsContentAnnotationSettings">
++    <option name="myLimit" value="2678400000" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager />
++    <watches-manager />
++  </component>
++</project>
+\ No newline at end of file
+diff --git "a/ANOTA\303\207\303\203O" "b/ANOTA\303\207\303\203O"
+new file mode 100644
+index 0000000..128e338
+--- /dev/null
++++ "b/ANOTA\303\207\303\203O"
+@@ -0,0 +1,14 @@
++SER CAPAZ DE GERCIAR SOFTWARE DE GRANDE PORTE, composto por muitos programas
++. contruir software para lidar com grandes quantidade de dados
++. geranciar uma equipe de desenvolvimento de software
++. comunicar-se com seus cliente e não so com o computador
++
++neste curos
++. formular questoes  
++. pensar criativamente
++
++ALGORITIMO
++. UMA lista de instruções passoa=a-passo para resolver um problema
++. pense como um receita de bolo
++
++
+diff --git a/ConversorTemperatura.py b/ConversorTemperatura.py
+new file mode 100644
+index 0000000..459afd5
+--- /dev/null
++++ b/ConversorTemperatura.py
+@@ -0,0 +1,5 @@
++temperaturaFahrenheit = input("digite um temperatura em Fahrenheit")
++
++temperaturaCelsius = (float(temperaturaFahrenheit) - 32) * 5/9
++
++print("A temperatura em celcius é ", temperaturaCelsius)
+diff --git a/__pycache__/test_fatorial.cpython-27-PYTEST.pyc b/__pycache__/test_fatorial.cpython-27-PYTEST.pyc
+new file mode 100644
+index 0000000..0df9c7c
+Binary files /dev/null and b/__pycache__/test_fatorial.cpython-27-PYTEST.pyc differ
+diff --git a/__pycache__/test_sample.cpython-27-PYTEST.pyc b/__pycache__/test_sample.cpython-27-PYTEST.pyc
+new file mode 100644
+index 0000000..3f88c0f
+Binary files /dev/null and b/__pycache__/test_sample.cpython-27-PYTEST.pyc differ
+diff --git a/aula1.py b/aula1.py
+new file mode 100644
+index 0000000..830e438
+--- /dev/null
++++ b/aula1.py
+@@ -0,0 +1,3 @@
++print ("daniel\n curso de introduçao a ciencia da computaçao")
++print (6 * 5)
++print (4 > 6)
+diff --git "a/exercicio/ANOTA\303\207\303\203O" "b/exercicio/ANOTA\303\207\303\203O"
+new file mode 100644
+index 0000000..128e338
+--- /dev/null
++++ "b/exercicio/ANOTA\303\207\303\203O"
+@@ -0,0 +1,14 @@
++SER CAPAZ DE GERCIAR SOFTWARE DE GRANDE PORTE, composto por muitos programas
++. contruir software para lidar com grandes quantidade de dados
++. geranciar uma equipe de desenvolvimento de software
++. comunicar-se com seus cliente e não so com o computador
++
++neste curos
++. formular questoes  
++. pensar criativamente
++
++ALGORITIMO
++. UMA lista de instruções passoa=a-passo para resolver um problema
++. pense como um receita de bolo
++
++
+diff --git a/exercicio/Buzz.py b/exercicio/Buzz.py
+new file mode 100644
+index 0000000..9819dd4
+--- /dev/null
++++ b/exercicio/Buzz.py
+@@ -0,0 +1,6 @@
++valor = int(input("Digite um numero inteiro: "))
++
++if (valor % 5 == 0):
++    print("Buzz")
++else:
++    print(valor)
+\ No newline at end of file
+diff --git a/exercicio/ConversorTemperatura.py b/exercicio/ConversorTemperatura.py
+new file mode 100644
+index 0000000..459afd5
+--- /dev/null
++++ b/exercicio/ConversorTemperatura.py
+@@ -0,0 +1,5 @@
++temperaturaFahrenheit = input("digite um temperatura em Fahrenheit")
++
++temperaturaCelsius = (float(temperaturaFahrenheit) - 32) * 5/9
++
++print("A temperatura em celcius é ", temperaturaCelsius)
+diff --git a/exercicio/Descrescente.py b/exercicio/Descrescente.py
+new file mode 100644
+index 0000000..e69de29
+diff --git a/exercicio/DistanciaDoisPontos.py b/exercicio/DistanciaDoisPontos.py
+new file mode 100644
+index 0000000..43c2a29
+--- /dev/null
++++ b/exercicio/DistanciaDoisPontos.py
+@@ -0,0 +1,22 @@
++import math
++xa = float(input("Primeiro ponto para Xa: "))
++ya = float(input("Segundo ponto para Ya: "))
++
++xb = float(input("Primeiro ponto para Xb: "))
++yb = float(input("Segundo ponto para Yb: "))
++
++
++if (xa < ya and yb < yb):
++   x = xa - xa
++   y = yb - yb
++else:
++   x = xb - xa
++   y = yb - ya
++
++xy = (x**2) + (y**2)
++d = math.sqrt(xy)
++
++if (d >10):
++   print("longe,")
++else:
++   print("perto")
+diff --git a/exercicio/FizzBuzz.py b/exercicio/FizzBuzz.py
+new file mode 100644
+index 0000000..836762c
+--- /dev/null
++++ b/exercicio/FizzBuzz.py
+@@ -0,0 +1,6 @@
++valor = int(input("Digite um valor inteiro: "))
++
++if(valor % 3 == 0 and valor % 5 == 0):
++    print("FizzBuzz")
++else:
++    print(valor)
+diff --git a/exercicio/OrdemCrescente.py b/exercicio/OrdemCrescente.py
+new file mode 100644
+index 0000000..87b38d3
+--- /dev/null
++++ b/exercicio/OrdemCrescente.py
+@@ -0,0 +1,7 @@
++a = float(input("Digite um valor inteiro: "))
++b = float(input("Digite um valor inteiro: "))
++c = float(input("Digite um valor inteiro: "))
++if (a < b and b < c):
++    print('crescente')
++else:
++    print ("nao esta em ordem crescente")
+diff --git a/exercicio/ParOuImpar.py b/exercicio/ParOuImpar.py
+new file mode 100644
+index 0000000..e9518fa
+--- /dev/null
++++ b/exercicio/ParOuImpar.py
+@@ -0,0 +1,8 @@
++# coding: utf-8
++
++valor = int(input("Digite um número inteiro: "))
++
++if (valor % 2 == 0):
++    print("par")
++else:
++    print("ímpar")
+\ No newline at end of file
+diff --git a/exercicio/WhileExercicio4.py b/exercicio/WhileExercicio4.py
+new file mode 100644
+index 0000000..6f49ef7
+--- /dev/null
++++ b/exercicio/WhileExercicio4.py
+@@ -0,0 +1,4 @@
++i = 6
++while (i > 0):
++      i = i - 3;
++      print (i) 
+\ No newline at end of file
+diff --git a/exercicio/__pycache__/formulaBhaskara.cpython-34.pyc b/exercicio/__pycache__/formulaBhaskara.cpython-34.pyc
+new file mode 100644
+index 0000000..af916c2
+Binary files /dev/null and b/exercicio/__pycache__/formulaBhaskara.cpython-34.pyc differ
+diff --git a/exercicio/__pycache__/test_fatorial.cpython-27-PYTEST.pyc b/exercicio/__pycache__/test_fatorial.cpython-27-PYTEST.pyc
+new file mode 100644
+index 0000000..5a44dfd
+Binary files /dev/null and b/exercicio/__pycache__/test_fatorial.cpython-27-PYTEST.pyc differ
+diff --git a/exercicio/aula1.py b/exercicio/aula1.py
+new file mode 100644
+index 0000000..830e438
+--- /dev/null
++++ b/exercicio/aula1.py
+@@ -0,0 +1,3 @@
++print ("daniel\n curso de introduçao a ciencia da computaçao")
++print (6 * 5)
++print (4 > 6)
+diff --git a/exercicio/distancia dois pontos.png b/exercicio/distancia dois pontos.png
+new file mode 100644
+index 0000000..59136f1
+Binary files /dev/null and b/exercicio/distancia dois pontos.png differ
+diff --git a/exercicio/exercicio1.py b/exercicio/exercicio1.py
+new file mode 100644
+index 0000000..9fec71b
+--- /dev/null
++++ b/exercicio/exercicio1.py
+@@ -0,0 +1,7 @@
++nome_cliente = input("Digite o nome do cliente: ")
++dia_vencimento = input("Digite o dia de vencimento: ")
++mes_de_vencimento = input("Digite o mes do vencimento: ")
++valor_da_fatura = input("Digite o valor da fatura: ")
++
++print("Ola ", nome_cliente)
++print("A sua fatura com vencimento dia ", dia_vencimento, " de ", mes_de_vencimento, " no valor de ", valor_da_fatura)
+\ No newline at end of file
+diff --git a/exercicio/exercicio2.py b/exercicio/exercicio2.py
+new file mode 100644
+index 0000000..46cfabf
+--- /dev/null
++++ b/exercicio/exercicio2.py
+@@ -0,0 +1,4 @@
++valor_area = int(input("Digite o valor correspondente ao lado de um quadrado: "))
++resultado_perimentro = valor_area * 4
++resultado_area = valor_area * valor_area
++print("perimetro:",resultado_perimentro,"- area",resultado_area)
+\ No newline at end of file
+diff --git a/exercicio/exercicio3.py b/exercicio/exercicio3.py
+new file mode 100644
+index 0000000..be44911
+--- /dev/null
++++ b/exercicio/exercicio3.py
+@@ -0,0 +1,9 @@
++segundos_str = input("informe o numero de segundos que voce queira converter")
++segundos = int(segundos_str)
++hora = segundos // 3600
++segundosRestantes = segundos % 3600
++minutos = segundosRestantes // 60
++segundos = segundosRestantes % 60
++dias = hora // 24
++
++print(dias, " dia(s), ", hora, " horas, ", minutos, " minutos ", segundos," segundos ")
+diff --git a/exercicio/exercicio4.py b/exercicio/exercicio4.py
+new file mode 100644
+index 0000000..4639756
+--- /dev/null
++++ b/exercicio/exercicio4.py
+@@ -0,0 +1,4 @@
++valor = input("Digite um numero inteiro para ")
++valor_str = str(valor)
++tamanho_valor = len(valor_str)
++print(valor_str[tamanho_valor-2])
+diff --git a/exercicio/fIZZ.py b/exercicio/fIZZ.py
+new file mode 100644
+index 0000000..311c1f0
+--- /dev/null
++++ b/exercicio/fIZZ.py
+@@ -0,0 +1,6 @@
++valor = float(input("Digite um numero inteiro: "))
++
++if(valor % 3 == 0 ):
++    print("Fizz")
++else:
++    print(valor)
+\ No newline at end of file
+diff --git a/exercicio/formulaBhaskara.py b/exercicio/formulaBhaskara.py
+new file mode 100644
+index 0000000..3884a4b
+--- /dev/null
++++ b/exercicio/formulaBhaskara.py
+@@ -0,0 +1,24 @@
++# -*- coding: latin-1 -*-
++import math
++def delta(a, b, c):
++    return b ** 2 - 4 * a * c
++
++def main():
++    a = float(input("Digite o valor de a: "))
++    b = float(input("Digite o valor de b: "))
++    c = float(input("Digite o valor de c: "))
++    imprime_raizes(a, b, c)
++
++def imprime_raizes(a, b, c):
++    d = delta(a, b,c)
++    if(d== 0):
++        x = (-b + math.sqrt(d)) / (2  * a)
++        print("a raiz desta equa��o �",x)
++    else:
++        if (d < 0):
++            print("esta equa��o n�o possui ra�zes reais")
++        else:
++            x = (-b + math.sqrt(d)) / (2 * a)
++            y = (-b - math.sqrt(d)) / (2 * a)
++            print("as ra�zes da equa��o s�o", x, "e", y)
++
+diff --git a/exercicio/formulaBhaskara.py~ b/exercicio/formulaBhaskara.py~
+new file mode 100644
+index 0000000..b4ad433
+--- /dev/null
++++ b/exercicio/formulaBhaskara.py~
+@@ -0,0 +1,19 @@
++import math
++a = 1
++b = 4
++c = -21
++
++resultado_xmais =  (-b + (math.sqrt((4**2)+(4*1*21)))) / (2 * a)
++resultado_xmenos = (-b - (math.sqrt((4**2)+(4*1*21)))) / (2 * a)
++
++if(resultado_xmais <= 0) or (resultado_xmenos <= 0):
++    print("negativo reprovado")
++    print ("valor real para x = ",resultado_xmais, "e x = ",resultado_xmenos)
++else:
++    print ("valor real para x = ",resultado_xmais, "e x = ",resultado_xmenos)
++
++
++
++
++
++
+diff --git a/exercicio/formulaBhaskara_correcao_professor.py b/exercicio/formulaBhaskara_correcao_professor.py
+new file mode 100644
+index 0000000..20f7396
+--- /dev/null
++++ b/exercicio/formulaBhaskara_correcao_professor.py
+@@ -0,0 +1,20 @@
++# -*- coding: latin-1 -*-
++import math
++
++a = float(input("Digite o valor de a: "))  
++b = float(input("Digite o valor de b: "))
++c = float(input("Digite o valor de c: "))
++
++delta = b ** 2 - 4 * a * c
++
++if (delta == 0):
++    raiz1 = (-b + math.sqrt(delta)) / (2  * a)
++    print("A �nica raiz � ", raiz1)
++else:
++    if (delta < 0):
++        print ("A equa��o n�o possui raiz real")
++    else:
++        raiz1 = (-b + math.sqrt(delta)) / (2  * a)
++        raiz2 = (-b - math.sqrt(delta)) / (2  * a)
++        print("A primeira raiz e " , raiz1)
++        print("A segunda raiz e " , raiz2)
+diff --git a/exercicio/jogo_nim.py b/exercicio/jogo_nim.py
+new file mode 100644
+index 0000000..cb940e4
+--- /dev/null
++++ b/exercicio/jogo_nim.py
+@@ -0,0 +1,104 @@
++computador = 0
++usuario = 0
++def computador_escolhe_jogada(n , m):
++    loop = True
++    cont = m
++    if(n == m):
++        return m
++    elif(n - m == 1):
++        return m
++    else:
++        while(loop):
++            if(((n - cont ) % (m+1))== 0):
++                loop = False
++            cont = cont  - 1
++    cont = cont + 1
++    if(cont<= 0):
++        cont=m
++    n = n - cont
++    print("O Computador tirou " , cont , "restam " , n)
++    return cont
++
++def usuario_escolhe_jogada(n, m):
++    i = True
++    
++    while(i == True):
++        numPecas = int(input("Quantas peças você vai tirar?"))
++        if(n <= m):
++            print("Oops! Jogada inválida! Tente de novo.")
++            i = True
++        elif (numPecas <= m ):
++            i=False
++        elif(numPecas > m and numPecas <= m):
++            print("Oops! Jogada inválida! Tente de novo.")
++            i=True
++        else:
++            print("erro")
++
++    print("O usuario tirou " , numPecas , "restam " , n)
++
++    return numPecas
++
++def  partida():
++    n = int(input("Quantas peças? "))
++    m = int(input("Limite de peças por jogada? "))
++        
++    if (n % (m+1) == 0):
++        print("\nVoce começa! \n")
++        vez = True
++    elif(n % (m+1) != 0):
++        print("\nO computador começa \n")
++        vez = False
++    else:
++        vez = False
++    #ver se jogo é um campeonato(com três rodadas) ou partida única
++    #controla a vez de quem joga
++    i=True
++    while(i):
++        if(vez == True):
++            r = usuario_escolhe_jogada(n, m)
++            n = n - r
++            if(n <= 0):
++                print("Usuario vence")
++                i=False
++            vez = False
++        elif(vez == False):
++            r = computador_escolhe_jogada(n, m)
++            n = n - r
++            if(n <= 0):
++                print("computador vence")
++                i=False
++            vez = True
++            
++def campeonato():
++    print()
++    rodada = 1
++    while(rodada <= 3):
++        print("**** Rodada %i ****" % rodada)
++        partida()
++        rodada += 1
++
++
++        
++print("Bem-vindo ao jogo do NIM! Escolha:")
++print(" ")
++print("1 - para jogar uma partida isolada ")
++tipo_jogo = int(input("2 - para jogar um campeonato "))
++print(" ")
++
++if(tipo_jogo == 1):
++
++    partida()
++elif(tipo_jogo == 2):
++    controle = True
++    rodada =1
++    while(controle):
++        campeonato()
++        controle -= 1
++        if(rodada == 3):
++            controle = False
++    rodada = rodada + 1
++    print("**** final do compeonato ****")
++    print("placar você ", usuario, " X ", computador )
++
++
+diff --git a/exercicio/jogo_nim_2.py b/exercicio/jogo_nim_2.py
+new file mode 100644
+index 0000000..5dcdec9
+--- /dev/null
++++ b/exercicio/jogo_nim_2.py
+@@ -0,0 +1,104 @@
++computador = 0
++usuario = 0
++def computador_escolhe_jogada(n , m):
++    loop = True
++    cont = m
++    if(n == m):
++        return m
++    elif(n - m == 1):
++        return m
++    else:
++        while(loop):
++            if(((n - cont ) % (m+1))== 0):
++                loop = False
++            cont = cont  - 1
++    cont = cont + 1
++    if(cont<= 0):
++        cont=m
++    return cont
++
++def usuario_escolhe_jogada(n, m):
++    i = True
++    numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++    while(i == True):
++        if(m > n):
++            print("Erro: perdeu a vez" )
++            i=False
++        elif (numPecas <= m):
++            i=False
++            return numPecas
++        elif(numPecas > m):
++            print("Oops! Jogada inválida! Tente de novo.")
++            numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++            i=False
++        else:
++            print("Tente seguir as regras do jogo por favor")
++            numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++    print("VocÊ tirou " , m, "restam(partida) ", n)
++    return numPecas
++
++
++def partida():
++    global computador
++    global usuario
++
++    n = int(input("Quantas peças? "))
++    m = int(input("Limite de peças por jogada? "))
++    if (n % (m+1) == 0):
++        print("true " , n, m )
++        vez = True
++    elif(n % (m+1) > 0):
++        print("false" , n, m )
++        vez = False
++    else:
++        vez = False
++    #ver se jogo é um campeonato(com três rodadas) ou partida única
++
++
++        #controla a vez de quem joga
++    i=True
++    while(i):
++        if(vez == True):
++            r = usuario_escolhe_jogada(n, m)
++            n = n - r
++            print("O Usuario tirou " , r , "restam " , n)
++            if(n <= 0):
++                usuario+=1
++                print("Usuario vence")
++                usuario += 1
++                i=False
++            vez = False
++        elif(vez == False):
++            r = computador_escolhe_jogada(n, m)
++            n = n - r
++            print("O Computador tirou " , r , "restam " , n)
++            if(n <= 0):
++                computador+=1
++                print("computador vence")
++                computador += 1
++                i=False
++            vez = True
++        else:
++            pass
++
++
++print("Bem-vindo ao jogo do NIM! Escolha:")
++print(" ")
++print("1 - para jogar uma partida isolada ")
++tipo_jogo = int(input("2 - para jogar um campeonato "))
++print(" ")
++
++if(tipo_jogo == 1):
++    partida()
++elif(tipo_jogo == 2):
++    controle = 2
++    rodada =1
++    while(controle >= 0):
++        print("Rodada ", rodada)
++        partida()
++        controle -= 1
++        rodada = rodada + 1
++
++print("**** final do compeonato ****")
++print("placar você ", usuario, " X ", computador )
++
+diff --git a/exercicio/jogo_nim_3.py b/exercicio/jogo_nim_3.py
+new file mode 100644
+index 0000000..cf485cd
+--- /dev/null
++++ b/exercicio/jogo_nim_3.py
+@@ -0,0 +1,108 @@
++computador = 0
++usuario = 0
++def computador_escolhe_jogada(n , m):
++    loop = True
++    cont = m
++    if(n == m):
++        return m
++    elif(n - m == 1):
++        return m
++    else:
++        while(loop):
++            if(((n - cont ) % (m+1))== 0):
++                loop = False
++            cont = cont  - 1
++    cont = cont + 1
++    if(cont<= 0):
++        cont=m
++    return cont
++
++def usuario_escolhe_jogada(n, m):
++    i = True
++
++    numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++
++    while(i == True):
++        if(n<m):
++            print("Erro: perdeu a vez" )
++
++        elif (numPecas <= m):
++            i=False
++
++        elif(numPecas > m):
++            print("Oops! Jogada inválida! Tente de novo.")
++            numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++            i=False
++        else:
++            print("Tente seguir as regras do jogo por favor")
++            numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++    print("VocÊ tirou " , m, "restam(partida) ", n)
++    return numPecas
++
++
++def partida():
++    global computador
++    global usuario
++    vez = True
++    n = int(input("Quantas peças? "))
++    m = int(input("Limite de peças por jogada? "))
++    if(n<m):
++        print("Oops! Jogada inválida! Tente de novo.")
++        partida()
++    else:
++
++        if (n % (m+1) == 0):
++            print("O usuário começa")
++            vez = True
++        elif(n % (m+1) > 0):
++            print("O computador começa")
++            vez = False
++        else:
++            partida()
++    #ver se jogo é um campeonato(com três rodadas) ou partida única
++
++
++        #controla a vez de quem joga
++    i=True
++    while(i):
++        if(vez == True):
++            r = usuario_escolhe_jogada(n, m)
++            n = n - r
++            print("O Usuario tirou " , r , "restam " , n)
++            if(n <= 0):
++                usuario+=1
++                print("Usuario vence")
++                i=False
++            vez = False
++        elif(vez == False):
++            r = computador_escolhe_jogada(n, m)
++            n = n - r
++            print("O Computador tirou " , r , "restam " , n)
++            if(n <= 0):
++                print("computador vence")
++                i=False
++            vez = True
++        else:
++            pass
++
++
++print("Bem-vindo ao jogo do NIM! Escolha:")
++print(" ")
++print("1 - para jogar uma partida isolada ")
++tipo_jogo = int(input("2 - para jogar um campeonato "))
++print(" ")
++
++if(tipo_jogo == 1):
++    partida()
++elif(tipo_jogo == 2):
++    controle = 2
++    rodada =1
++    while(controle >= 0):
++        print("Rodada ", rodada)
++        partida()
++        controle -= 1
++        rodada = rodada + 1
++
++print("**** final do compeonato ****")
++print("placar você ", usuario, " X ", computador )
++
+diff --git a/exercicio/jogo_nim_exemplo.py b/exercicio/jogo_nim_exemplo.py
+new file mode 100644
+index 0000000..66a6440
+--- /dev/null
++++ b/exercicio/jogo_nim_exemplo.py
+@@ -0,0 +1,97 @@
++computador = 0
++usuario = 0
++rodada = 0
++
++def computador_escolhe_jogada(n, m):
++    global computador
++    n = n - m
++    if (n == 1):
++        print(" ")
++        print("O computador tirou %s peça." % n)
++        print("Agora restam %s peças no tabuleiro." % n)
++        print(" ")
++        if (n == 0):
++            print ("Fim do jogo! O computador ganhou!")
++            partida()
++    else:
++        print(" ")
++        print("O computador tirou %s peça." % m)
++        print("Agora restam %s peças no tabuleiro." % n)
++        print(" ")
++        if (n == 0):
++            print ("Fim do jogo! O computador ganhou!")
++            partida()
++    return n
++    return m
++
++
++def usuario_escolhe_jogada(n, m):
++    global usuario
++    print(" ")
++    n_user = int(input("Quantas peças você vai tirar? "))
++    print("Voce tirou %s peças." % n_user)
++    if (n_user <= m):
++        n = n - m
++        print(" ")
++        print("Agora restam apenas %s peças no tabuleiro." % n)
++    else:
++        while (n_user > m):
++            print("Oops! Jogada inválida! Tente de novo.")
++            print(" ")
++            n_user = int(input("Quantas peças você vai tirar? "))
++    if (n == 0):
++        print ("Vitoria do usuario")
++    return n_user
++    return n
++    return m
++
++def partida():
++    global computador
++    global usuario
++    global rodada
++    while(rodada <= 3):
++        rodada = rodada + 1
++        if (rodada <= 3 ):
++            print(" ")
++            print("**** Rodada %s ****" % rodada)
++            print(" ")
++            n = int(input("Quantas peças? "))
++            m = int(input("Limite de peças por jogada? "))
++            if (((n )%(m + 1)) == 0):
++                while (n > 0):
++                    print(" ")
++                    print("Voce começa!")
++                    usuario_escolhe_jogada(n,m)
++                    if n > 0:
++                        n = n - m
++                    computador_escolhe_jogada(n,m)
++                    n = n - m
++                    computador = computador + 1
++            else:
++                print(" ")
++                print("Computador Começa!!")
++                while( n > 0):
++                    computador_escolhe_jogada(n,m)
++                    computador = computador + 1
++                    n = n - m
++                    if n > 0:
++                        usuario_escolhe_jogada(n,m)
++                        n = n - m
++        else:
++            print("**** Final do campeonato! ****")
++            print(" ")
++            print("Fim de Campeonato: Computador %s x 0 Usuario " % computador)
++        break
++
++print("Bem-vindo ao jogo do NIM! Escolha:")
++print(" ")
++print("1 - para jogar uma partida isolada ")
++tipo_jogo = int(input("2 - para jogar um campeonato "))
++print(" ")
++if ( tipo_jogo == 1 ):
++    print("Voce escolheu partida isolada!")
++if ( tipo_jogo == 2):
++    print("Voce escolheu um campeonato!")
++    partida()
++else:
++    pass
+diff --git a/exercicio/juros_composto.py b/exercicio/juros_composto.py
+new file mode 100644
+index 0000000..9a39ee1
+--- /dev/null
++++ b/exercicio/juros_composto.py
+@@ -0,0 +1,4 @@
++montante = 100
++
++f = c . (1 + i ) ** n
++
+diff --git a/exercicio/numerosAdjacentes.py b/exercicio/numerosAdjacentes.py
+new file mode 100644
+index 0000000..e69de29
+diff --git a/exercicio/numeros_adjacentes.py b/exercicio/numeros_adjacentes.py
+new file mode 100644
+index 0000000..221f7ca
+--- /dev/null
++++ b/exercicio/numeros_adjacentes.py
+@@ -0,0 +1,28 @@
++#recebe um numero inteiro com um string
++valor_str =input("digite um numero inteiro: ")
++#verifica o tamanho do texto e armazena tamanho na variavel valor_len que ira ser a
++#quantidade de voltas do laço - 1
++valor_len = len(valor_str)
++#inicializa as variaveis que irão ser usadas
++valor_ant = -11990
++i = 0
++resp = False
++valor_int = 0
++parada = True
++#cria o laço
++while(i <= valor_len-1 and parada != False):
++    #converte o caracter da posição [0] da string em um inteiro
++    valor_atu = int(valor_str[i])
++    if(valor_atu == valor_ant):
++        valor_ant = valor_atu
++        resp = True
++        parada = True
++    else:
++        valor_ant = valor_atu
++    i+=1
++
++if(resp):
++    print("sim")
++else:
++    print("não")
++
+diff --git a/exercicio/numeros_impares.py b/exercicio/numeros_impares.py
+new file mode 100644
+index 0000000..bc3c5ff
+--- /dev/null
++++ b/exercicio/numeros_impares.py
+@@ -0,0 +1,7 @@
++valor = int(input("Digite um numero inteiro positivo"))
++i = 1
++res = 1
++while(i <= valor):
++    print(res)
++    res+=2
++    i+=1
+diff --git a/exercicio/numeros_primos.py b/exercicio/numeros_primos.py
+new file mode 100644
+index 0000000..505a585
+--- /dev/null
++++ b/exercicio/numeros_primos.py
+@@ -0,0 +1,15 @@
++valor = int(input("Digite um numero inteiro"))
++contar_divisao_inteira = 1
++resto = 0
++mesmo = 0
++i=1
++sim = False
++while(i <= valor and sim != True):
++    resto += valor % i
++    if(resto == 0):
++        contar_divisao_inteira += 1
++    i+=1
++if(contar_divisao_inteira >2):
++    print("não primo")
++else:
++    print("primo")
+diff --git a/exercicio/semana3-1.py b/exercicio/semana3-1.py
+new file mode 100644
+index 0000000..6a37e52
+--- /dev/null
++++ b/exercicio/semana3-1.py
+@@ -0,0 +1,21 @@
++import math
++a = float(input("Digite o valor de a: "))
++b = float(input("Digite o valor de b: "))
++c = float(input("Digite o valor de c: "))
++
++
++delta = b ** 2 - 4 * a * c
++x =  (-b + delta) / (2 * a)
++y = (-b - delta) / (2 * a)
++
++if(delta < 0):
++    print("negativo reprovado")
++    print ("valor real para x = ",x, "e x = ",x)
++else:
++    print ("valor real para x = ",y, "e x = ",y)
++
++
++
++
++
++
+diff --git a/exercicio/soma_dos_digitos.py b/exercicio/soma_dos_digitos.py
+new file mode 100644
+index 0000000..a13afe4
+--- /dev/null
++++ b/exercicio/soma_dos_digitos.py
+@@ -0,0 +1,19 @@
++#recebe um numero inteiro com um string
++valor_str =input("digite um numero inteiro: ")
++#verifica o tamanho do texto e armazena tamanho na variavel valor_len que ira ser a
++#quantidade de voltas do laço - 1
++valor_len = len(valor_str)
++#inicializa as variaveis que irão ser usadas
++valor_total = 0
++i = 0
++valor_int = 0
++#cria o laço
++while(i <= valor_len-1):
++    #converte o caracter da posição [0] da string em um inteiro
++    valor_int = int(valor_str[i])
++    #faz-se a soma e quarda na varialvel valor_total
++    valor_total = valor_total + valor_int
++    #soma um na variazel de controle do laço
++    i+=1
++#depois de sair do laço printa o resultado na tela
++print(valor_total)
+diff --git a/exercicio/test_fatorial.py b/exercicio/test_fatorial.py
+new file mode 100644
+index 0000000..0a352e2
+--- /dev/null
++++ b/exercicio/test_fatorial.py
+@@ -0,0 +1,25 @@
++def fatorial(n):
++    if(n <0):
++        return 0
++
++    i = fat = 0
++
++    while i <= n:
++        fat = fat * i
++        i += 1
++    return fat
++
++def test_fatorial0():
++    assert fatorial(0) == 1
++
++def test_fatorial1():
++    assert fatorial(1) == 1
++
++def test_fatorial_negativo():
++    assert fatorial(-10) == 0
++
++def test_fatorial4():
++    assert fatorial(4) == 24
++
++def test_fatorial5():
++    assert fatorial(5) == 120
+\ No newline at end of file
+diff --git a/exercicio/teste_exercicios.py b/exercicio/teste_exercicios.py
+new file mode 100644
+index 0000000..e6c212c
+--- /dev/null
++++ b/exercicio/teste_exercicios.py
+@@ -0,0 +1,5 @@
++def leitura():
++    x = int(input("Digite um valor: "))
++    while x <= 0:
++        x = int(input("Digite um valor: "))
++    return x
+diff --git a/exercicio1.py b/exercicio1.py
+new file mode 100644
+index 0000000..ac2b397
+--- /dev/null
++++ b/exercicio1.py
+@@ -0,0 +1,6 @@
++nome_cliente = input("Digite o nome do cliente:")
++dia_vencimento = input("Digite o dia de vencimento:")
++mes_de_vencimento = input("Digite o més de vencimento:")
++valor_da_fatura = input("Digite o valor da fatura:")
++print("Olá,", nome_cliente)
++print("A sua fatura com vencimento em",dia_vencimento,"de",mes_de_vencimento,"no valor de R$",valor_da_fatura,"está fechada.")
+diff --git a/exercicio2.py b/exercicio2.py
+new file mode 100644
+index 0000000..e9bbc8f
+--- /dev/null
++++ b/exercicio2.py
+@@ -0,0 +1,5 @@
++valor_area_str = input("Digite o valor correspondente ao lado de um quadrado: ")
++valor_area = int(valor_area_str)
++resultado_perimentro = valor_area * 4
++resultado_area = valor_area * valor_area
++print("perímetro:",resultado_perimentro, "- área:",resultado_area)
+diff --git a/exercicio3.py b/exercicio3.py
+new file mode 100644
+index 0000000..698223a
+--- /dev/null
++++ b/exercicio3.py
+@@ -0,0 +1,12 @@
++segundos_str = input("informe o numero de segundos que voce queira converter")
++total_segs = int(segundos_str)
++
++dias = total_segs // 86400
++hora = total_segs // 3600
++horas_total = hora % 24
++segs_restantes = total_segs % 3600
++minutos = segs_restantes // 60
++segs_restantes_final = segs_restantes % 60
++
++print("resto horas ")
++print(dias,"dias,",horas_total,"horas,",minutos,"minutos e",segs_restantes_final,"segundos.")
+diff --git a/exercicio4.py b/exercicio4.py
+new file mode 100644
+index 0000000..43c1d22
+--- /dev/null
++++ b/exercicio4.py
+@@ -0,0 +1,8 @@
++valor = input("Digite um número inteiro:")
++valor_str = str(valor)
++tamanho_valor = len(valor_str)
++valor_str[tamanho_valor-2]
++if(tamanho_valor == 1):
++    print("O dígito das dezenas é",0)
++else:
++    print("O dígito das dezenas é", int(valor_str[tamanho_valor-2]))
+diff --git a/exercicio5.py b/exercicio5.py
+new file mode 100644
+index 0000000..c146d2e
+--- /dev/null
++++ b/exercicio5.py
+@@ -0,0 +1,8 @@
++nota1 = input("Digite a primeira nota:")
++nota2 = input("Digite a segunda nota:")
++nota3 = input("Digite a terceira nota:")
++nota4 = input("Digite a quarta nota:")
++
++resultado_final = (float(nota1) + float(nota2) + float(nota3) + float(nota4)) / 4
++
++print("A média aritmética é", resultado_final)
+diff --git a/jogo_nim.py b/jogo_nim.py
+new file mode 100644
+index 0000000..cb940e4
+--- /dev/null
++++ b/jogo_nim.py
+@@ -0,0 +1,104 @@
++computador = 0
++usuario = 0
++def computador_escolhe_jogada(n , m):
++    loop = True
++    cont = m
++    if(n == m):
++        return m
++    elif(n - m == 1):
++        return m
++    else:
++        while(loop):
++            if(((n - cont ) % (m+1))== 0):
++                loop = False
++            cont = cont  - 1
++    cont = cont + 1
++    if(cont<= 0):
++        cont=m
++    n = n - cont
++    print("O Computador tirou " , cont , "restam " , n)
++    return cont
++
++def usuario_escolhe_jogada(n, m):
++    i = True
++    
++    while(i == True):
++        numPecas = int(input("Quantas peças você vai tirar?"))
++        if(n <= m):
++            print("Oops! Jogada inválida! Tente de novo.")
++            i = True
++        elif (numPecas <= m ):
++            i=False
++        elif(numPecas > m and numPecas <= m):
++            print("Oops! Jogada inválida! Tente de novo.")
++            i=True
++        else:
++            print("erro")
++
++    print("O usuario tirou " , numPecas , "restam " , n)
++
++    return numPecas
++
++def  partida():
++    n = int(input("Quantas peças? "))
++    m = int(input("Limite de peças por jogada? "))
++        
++    if (n % (m+1) == 0):
++        print("\nVoce começa! \n")
++        vez = True
++    elif(n % (m+1) != 0):
++        print("\nO computador começa \n")
++        vez = False
++    else:
++        vez = False
++    #ver se jogo é um campeonato(com três rodadas) ou partida única
++    #controla a vez de quem joga
++    i=True
++    while(i):
++        if(vez == True):
++            r = usuario_escolhe_jogada(n, m)
++            n = n - r
++            if(n <= 0):
++                print("Usuario vence")
++                i=False
++            vez = False
++        elif(vez == False):
++            r = computador_escolhe_jogada(n, m)
++            n = n - r
++            if(n <= 0):
++                print("computador vence")
++                i=False
++            vez = True
++            
++def campeonato():
++    print()
++    rodada = 1
++    while(rodada <= 3):
++        print("**** Rodada %i ****" % rodada)
++        partida()
++        rodada += 1
++
++
++        
++print("Bem-vindo ao jogo do NIM! Escolha:")
++print(" ")
++print("1 - para jogar uma partida isolada ")
++tipo_jogo = int(input("2 - para jogar um campeonato "))
++print(" ")
++
++if(tipo_jogo == 1):
++
++    partida()
++elif(tipo_jogo == 2):
++    controle = True
++    rodada =1
++    while(controle):
++        campeonato()
++        controle -= 1
++        if(rodada == 3):
++            controle = False
++    rodada = rodada + 1
++    print("**** final do compeonato ****")
++    print("placar você ", usuario, " X ", computador )
++
++
+diff --git a/jogo_nim_2.py b/jogo_nim_2.py
+new file mode 100644
+index 0000000..5dcdec9
+--- /dev/null
++++ b/jogo_nim_2.py
+@@ -0,0 +1,104 @@
++computador = 0
++usuario = 0
++def computador_escolhe_jogada(n , m):
++    loop = True
++    cont = m
++    if(n == m):
++        return m
++    elif(n - m == 1):
++        return m
++    else:
++        while(loop):
++            if(((n - cont ) % (m+1))== 0):
++                loop = False
++            cont = cont  - 1
++    cont = cont + 1
++    if(cont<= 0):
++        cont=m
++    return cont
++
++def usuario_escolhe_jogada(n, m):
++    i = True
++    numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++    while(i == True):
++        if(m > n):
++            print("Erro: perdeu a vez" )
++            i=False
++        elif (numPecas <= m):
++            i=False
++            return numPecas
++        elif(numPecas > m):
++            print("Oops! Jogada inválida! Tente de novo.")
++            numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++            i=False
++        else:
++            print("Tente seguir as regras do jogo por favor")
++            numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++    print("VocÊ tirou " , m, "restam(partida) ", n)
++    return numPecas
++
++
++def partida():
++    global computador
++    global usuario
++
++    n = int(input("Quantas peças? "))
++    m = int(input("Limite de peças por jogada? "))
++    if (n % (m+1) == 0):
++        print("true " , n, m )
++        vez = True
++    elif(n % (m+1) > 0):
++        print("false" , n, m )
++        vez = False
++    else:
++        vez = False
++    #ver se jogo é um campeonato(com três rodadas) ou partida única
++
++
++        #controla a vez de quem joga
++    i=True
++    while(i):
++        if(vez == True):
++            r = usuario_escolhe_jogada(n, m)
++            n = n - r
++            print("O Usuario tirou " , r , "restam " , n)
++            if(n <= 0):
++                usuario+=1
++                print("Usuario vence")
++                usuario += 1
++                i=False
++            vez = False
++        elif(vez == False):
++            r = computador_escolhe_jogada(n, m)
++            n = n - r
++            print("O Computador tirou " , r , "restam " , n)
++            if(n <= 0):
++                computador+=1
++                print("computador vence")
++                computador += 1
++                i=False
++            vez = True
++        else:
++            pass
++
++
++print("Bem-vindo ao jogo do NIM! Escolha:")
++print(" ")
++print("1 - para jogar uma partida isolada ")
++tipo_jogo = int(input("2 - para jogar um campeonato "))
++print(" ")
++
++if(tipo_jogo == 1):
++    partida()
++elif(tipo_jogo == 2):
++    controle = 2
++    rodada =1
++    while(controle >= 0):
++        print("Rodada ", rodada)
++        partida()
++        controle -= 1
++        rodada = rodada + 1
++
++print("**** final do compeonato ****")
++print("placar você ", usuario, " X ", computador )
++
+diff --git a/jogo_nim_3.py b/jogo_nim_3.py
+new file mode 100644
+index 0000000..0f97624
+--- /dev/null
++++ b/jogo_nim_3.py
+@@ -0,0 +1,108 @@
++computador = 0
++usuario = 0
++def computador_escolhe_jogada(n , m):
++    loop = True
++    cont = m
++    if(n == m):
++        return m
++    elif(n - m == 1):
++        return m
++    else:
++        while(loop):
++            if(((n - cont ) % (m+1))== 0):
++                loop = False
++            cont = cont  - 1
++    cont = cont + 1
++    if(cont<= 0):
++        cont=m
++    return cont
++
++def usuario_escolhe_jogada(n, m):
++    i = True
++
++    numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++
++    while(i == True):
++        if(n<m):
++            print("Erro: perdeu a vez" )
++
++        elif (numPecas <= m):
++            i=False
++
++        elif(numPecas > m):
++            print("Oops! Jogada inválida! Tente de novo.")
++            numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++            i=False
++        else:
++            print("Tente seguir as regras do jogo por favor")
++            numPecas = int(input("Informe quantidade de peças para ser retirada: "))
++    print("VocÊ tirou " , m, "restam(partida) ", n)
++    return numPecas
++
++
++def partida():
++    global computador
++    global usuario
++    vez = True
++    n = int(input("Quantas peças? "))
++    m = int(input("Limite de peças por jogada? "))
++    if(n<m):
++        print("Oops! Jogada inválida! Tente de novo.")
++        partida()
++    else:
++
++        if (n % (m+1) == 0):
++            print("true " , n, m )
++            vez = True
++        elif(n % (m+1) > 0):
++            print("false" , n, m )
++            vez = False
++        else:
++            partida()
++    #ver se jogo é um campeonato(com três rodadas) ou partida única
++
++
++        #controla a vez de quem joga
++    i=True
++    while(i):
++        if(vez == True):
++            r = usuario_escolhe_jogada(n, m)
++            n = n - r
++            print("O Usuario tirou " , r , "restam " , n)
++            if(n <= 0):
++                usuario+=1
++                print("Usuario vence")
++                i=False
++            vez = False
++        elif(vez == False):
++            r = computador_escolhe_jogada(n, m)
++            n = n - r
++            print("O Computador tirou " , r , "restam " , n)
++            if(n <= 0):
++                print("computador vence")
++                i=False
++            vez = True
++        else:
++            pass
++
++
++print("Bem-vindo ao jogo do NIM! Escolha:")
++print(" ")
++print("1 - para jogar uma partida isolada ")
++tipo_jogo = int(input("2 - para jogar um campeonato "))
++print(" ")
++
++if(tipo_jogo == 1):
++    partida()
++elif(tipo_jogo == 2):
++    controle = 2
++    rodada =1
++    while(controle >= 0):
++        print("Rodada ", rodada)
++        partida()
++        controle -= 1
++        rodada = rodada + 1
++
++print("**** final do compeonato ****")
++print("placar você ", usuario, " X ", computador )
++
+diff --git a/jogo_nim_exemplo.py b/jogo_nim_exemplo.py
+new file mode 100644
+index 0000000..66a6440
+--- /dev/null
++++ b/jogo_nim_exemplo.py
+@@ -0,0 +1,97 @@
++computador = 0
++usuario = 0
++rodada = 0
++
++def computador_escolhe_jogada(n, m):
++    global computador
++    n = n - m
++    if (n == 1):
++        print(" ")
++        print("O computador tirou %s peça." % n)
++        print("Agora restam %s peças no tabuleiro." % n)
++        print(" ")
++        if (n == 0):
++            print ("Fim do jogo! O computador ganhou!")
++            partida()
++    else:
++        print(" ")
++        print("O computador tirou %s peça." % m)
++        print("Agora restam %s peças no tabuleiro." % n)
++        print(" ")
++        if (n == 0):
++            print ("Fim do jogo! O computador ganhou!")
++            partida()
++    return n
++    return m
++
++
++def usuario_escolhe_jogada(n, m):
++    global usuario
++    print(" ")
++    n_user = int(input("Quantas peças você vai tirar? "))
++    print("Voce tirou %s peças." % n_user)
++    if (n_user <= m):
++        n = n - m
++        print(" ")
++        print("Agora restam apenas %s peças no tabuleiro." % n)
++    else:
++        while (n_user > m):
++            print("Oops! Jogada inválida! Tente de novo.")
++            print(" ")
++            n_user = int(input("Quantas peças você vai tirar? "))
++    if (n == 0):
++        print ("Vitoria do usuario")
++    return n_user
++    return n
++    return m
++
++def partida():
++    global computador
++    global usuario
++    global rodada
++    while(rodada <= 3):
++        rodada = rodada + 1
++        if (rodada <= 3 ):
++            print(" ")
++            print("**** Rodada %s ****" % rodada)
++            print(" ")
++            n = int(input("Quantas peças? "))
++            m = int(input("Limite de peças por jogada? "))
++            if (((n )%(m + 1)) == 0):
++                while (n > 0):
++                    print(" ")
++                    print("Voce começa!")
++                    usuario_escolhe_jogada(n,m)
++                    if n > 0:
++                        n = n - m
++                    computador_escolhe_jogada(n,m)
++                    n = n - m
++                    computador = computador + 1
++            else:
++                print(" ")
++                print("Computador Começa!!")
++                while( n > 0):
++                    computador_escolhe_jogada(n,m)
++                    computador = computador + 1
++                    n = n - m
++                    if n > 0:
++                        usuario_escolhe_jogada(n,m)
++                        n = n - m
++        else:
++            print("**** Final do campeonato! ****")
++            print(" ")
++            print("Fim de Campeonato: Computador %s x 0 Usuario " % computador)
++        break
++
++print("Bem-vindo ao jogo do NIM! Escolha:")
++print(" ")
++print("1 - para jogar uma partida isolada ")
++tipo_jogo = int(input("2 - para jogar um campeonato "))
++print(" ")
++if ( tipo_jogo == 1 ):
++    print("Voce escolheu partida isolada!")
++if ( tipo_jogo == 2):
++    print("Voce escolheu um campeonato!")
++    partida()
++else:
++    pass
+diff --git "a/nivel de expenecia\303\247\303\243o.png" "b/nivel de expenecia\303\247\303\243o.png"
+new file mode 100644
+index 0000000..98e9603
+Binary files /dev/null and "b/nivel de expenecia\303\247\303\243o.png" differ
+diff --git a/printScream/erada exerc 1 b/printScream/erada exerc 1
+new file mode 100644
+index 0000000..7548cf3
+Binary files /dev/null and b/printScream/erada exerc 1 differ
+diff --git a/printScream/errada exerc4.png b/printScream/errada exerc4.png
+new file mode 100644
+index 0000000..7610174
+Binary files /dev/null and b/printScream/errada exerc4.png differ
+diff --git a/printScream/exercicio 1 b/printScream/exercicio 1
+new file mode 100644
+index 0000000..f18ad0c
+Binary files /dev/null and b/printScream/exercicio 1 differ
+diff --git a/printScream/exercicio 6 b/printScream/exercicio 6
+new file mode 100644
+index 0000000..883d919
+Binary files /dev/null and b/printScream/exercicio 6 differ
+diff --git a/printScream/exercicio2-3 b/printScream/exercicio2-3
+new file mode 100644
+index 0000000..75bd7b2
+Binary files /dev/null and b/printScream/exercicio2-3 differ
+diff --git a/printScream/exercicio4-5 b/printScream/exercicio4-5
+new file mode 100644
+index 0000000..a064690
+Binary files /dev/null and b/printScream/exercicio4-5 differ
+diff --git a/printScream/exercicio7 b/printScream/exercicio7
+new file mode 100644
+index 0000000..112a251
+Binary files /dev/null and b/printScream/exercicio7 differ
+diff --git a/pytest/__pycache__/test_bhaskara.cpython-27-PYTEST.pyc b/pytest/__pycache__/test_bhaskara.cpython-27-PYTEST.pyc
+new file mode 100644
+index 0000000..8a9a6bf
+Binary files /dev/null and b/pytest/__pycache__/test_bhaskara.cpython-27-PYTEST.pyc differ
+diff --git a/pytest/test_bhaskara.py b/pytest/test_bhaskara.py
+new file mode 100644
+index 0000000..09fbb52
+--- /dev/null
++++ b/pytest/test_bhaskara.py
+@@ -0,0 +1,12 @@
++
++from exercicio.formulaBhaskara import delta
++
++
++def test_delta():
++    assert delta(10, 30, 25) < 0
++
++def test_delta():
++    assert delta(10, 30, 25) >0
++
++def test_delta():
++    assert delta(16, 4, 9) < 0
+diff --git a/test_fatorial.py b/test_fatorial.py
+new file mode 100644
+index 0000000..332b63c
+--- /dev/null
++++ b/test_fatorial.py
+@@ -0,0 +1,25 @@
++def fatorial(n):
++    if(n <0):
++        return 0
++
++    i = fat = 1
++
++    while i <= n:
++        fat = fat * i
++        i = i + 1
++    return fat
++
++def test_fatorial0():
++    assert fatorial(0) == 1
++
++def test_fatorial1():
++    assert fatorial(1) == 1
++
++def test_fatorial_negativo():
++    assert fatorial(-10) == 0
++
++def test_fatorial4():
++    assert fatorial(4) == 24
++
++def test_fatorial5():
++    assert fatorial(5) == 120
+\ No newline at end of file
+diff --git a/test_sample.py b/test_sample.py
+new file mode 100644
+index 0000000..336dbcf
+--- /dev/null
++++ b/test_sample.py
+@@ -0,0 +1,6 @@
++# content of test_sample.py
++def func(x):
++    return x + 1
++
++def test_answer():
++    assert func(4) == 5
+\ No newline at end of file
+diff --git a/teste_de_entrada_de_dados.py b/teste_de_entrada_de_dados.py
+new file mode 100644
+index 0000000..d60f9aa
+--- /dev/null
++++ b/teste_de_entrada_de_dados.py
+@@ -0,0 +1,11 @@
++a = 0
++b = 1
++c = 2
++if (a > 0):
++    if (b > 0):
++        print ("Tudo ok para decolagem!")
++    else:
++        print ("Tanque principal vazio; voando com combustível reserva!")
++else:
++    if (c > 0):
++        print ("Foguete não tem piloto, mas há outros foguetes disponíveis!")
